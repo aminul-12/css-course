@@ -1,0 +1,62 @@
+body {
+    background: url(css_image_1.jpeg);
+    background-attachment: fixed;
+}
+
+div{
+    background-color: rgba(15, 238, 149, 0.045);
+    font-size: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+    background-size: 800px 350px;
+    background-repeat:repeat-y;
+    background-repeat: repeat-x;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-image: url(css_image_2.jpg);
+    background-color: rebeccapurple;
+    background-repeat: no-repeat;
+}
+h1{
+    color: rgb(127, 237, 24);
+    border-style: double;
+    border-width:5px;
+    border-color: aqua;
+    border-radius: 25px;
+
+}
+h2{
+    color: aqua;
+    border-left-style: solid;
+}
+#margin_padding{
+    background: greenyellow;
+    width: 300px;
+    height: 300px;
+    font-size: 17px;
+    background-color: rgba(15, 193, 60, 0.201);
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.child{
+    background: rebeccapurple;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+.scroll_bar{
+    background: aqua;
+}
+.responsive{
+    background: aquamarine;
+    color: rgb(29, 28, 28);
+    width: 96%;
+    margin: 20px auto;
+}
